@@ -1,0 +1,55 @@
+{
+  "arch": {
+    "neovim": {
+      "name": "neovim",
+      "command": "sudo pacman -S neovim"
+    }
+  },
+  "gentoo": {
+    "neovim": {
+      "name": "nvim",
+      "command": "doas emerge app-editors/neovim"
+    },
+    "i3": {
+      "name": "i3",
+      "command": "doas emerge x11-wm/i3"
+    },
+    "i3status": {
+      "name": "i3status",
+      "command": "doas emerge x11-misc/i3status"
+    },
+    "git": {
+      "name": "git",
+      "command": "doas emerge dev-vcs/git"
+    },
+    "eza": {
+      "name": "eza",
+      "command": "doas emerge sys-apps/eza"
+    },
+    "kitty": {
+      "name": "kitty",
+      "command": "doas emerge x11-terms/kitty"
+    },
+    "dunst": {
+      "name": "dunst",
+      "command": "doas emerge x11-misc/dunst"
+    },
+    "picom": {
+      "name": "picom",
+      "command": "doas emerge x11-misc/picom"
+    },
+    "fish": {
+      "name": "fish",
+      "command": "doas emerge app-shells/fish"
+    },
+    "feh": {
+      "name": "feh",
+      "command": "doas emerge media-gfx/feh"
+    },
+    "dmenu": {
+      "name": "dunst",
+      "command": "doas emerge x11-misc/dmenu"
+    }
+  }
+}
+

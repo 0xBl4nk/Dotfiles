@@ -1,0 +1,13 @@
+#!/usr/bin/bash
+
+clear
+echo "blank@gentoo ~ $ Faça o L imediatamente!"
+echo ""
+echo ""
+echo ""
+echo "root@gentoo ~ # skksksks os caba brinca..."
+echo ""
+echo ""
+echo ""
+echo ""
+read
