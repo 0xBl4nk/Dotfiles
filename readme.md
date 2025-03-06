@@ -18,7 +18,7 @@ dmenu
 echo "OBS: Install Doas if you use gentoo"
 
 cat portage/package.use >> /etc/portage/package.use/dotfiles.use
-./setup.sh
+./setup.sh -os gentoo
 ```
 
 ## Post Install

@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-# Script to copy dotfiles from repository to home directory
-# Usage: ./script.sh [-v] (v for verbose mode)
-
 REPO_CONFIG="$PWD/.config"  # Path to .config in repository
 DOTPATH="$HOME/.config"     # Destination path
 VERBOSE=false               # Default to non-verbose mode
